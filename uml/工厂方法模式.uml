@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>site.licsber.product.HistogramChart</OriginalElement>
+  <nodes>
+    <node x="287.0" y="320.0">site.licsber.product.AbstractChart</node>
+    <node x="182.0" y="225.0">site.licsber.factory.AbstractFactory</node>
+    <node x="228.0" y="547.0">site.licsber.product.HistogramChart</node>
+    <node x="404.0" y="436.0">site.licsber.client.FactoryMethodClient</node>
+    <node x="186.0" y="0.0">site.licsber.factory.PieChartFactory</node>
+    <node x="576.0" y="277.0">site.licsber.product.LineChart</node>
+    <node x="65.0" y="130.0">site.licsber.product.PieChart</node>
+    <node x="418.0" y="101.0">site.licsber.factory.LineChartFactory</node>
+    <node x="0.0" y="406.0">site.licsber.factory.HistogramChartFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="site.licsber.product.LineChart" target="site.licsber.product.AbstractChart">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="site.licsber.factory.LineChartFactory" target="site.licsber.product.AbstractChart">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="site.licsber.client.FactoryMethodClient" target="site.licsber.factory.AbstractFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="site.licsber.factory.HistogramChartFactory" target="site.licsber.product.AbstractChart">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="site.licsber.factory.PieChartFactory" target="site.licsber.product.AbstractChart">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="site.licsber.product.PieChart" target="site.licsber.product.AbstractChart">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="site.licsber.factory.PieChartFactory" target="site.licsber.factory.AbstractFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="site.licsber.factory.PieChartFactory" target="site.licsber.product.PieChart">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="site.licsber.client.FactoryMethodClient" target="site.licsber.factory.LineChartFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="site.licsber.product.HistogramChart" target="site.licsber.product.AbstractChart">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="site.licsber.factory.HistogramChartFactory" target="site.licsber.product.HistogramChart">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="site.licsber.factory.LineChartFactory" target="site.licsber.factory.AbstractFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="site.licsber.client.FactoryMethodClient" target="site.licsber.product.AbstractChart">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="site.licsber.factory.AbstractFactory" target="site.licsber.product.AbstractChart">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="site.licsber.factory.HistogramChartFactory" target="site.licsber.factory.AbstractFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="site.licsber.factory.LineChartFactory" target="site.licsber.product.LineChart">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Orthogonal" zoom="1.0" x="348.5" y="300.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

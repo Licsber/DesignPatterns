@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>site.licsber.product.AbstractChart</OriginalElement>
+  <nodes>
+    <node x="202.00000000000003" y="208.0">site.licsber.factory.SimpleChartFactory</node>
+    <node x="292.02314814814815" y="0.0">site.licsber.product.AbstractChart</node>
+    <node x="0.0" y="104.0">site.licsber.product.HistogramChart</node>
+    <node x="178.00000000000003" y="104.0">site.licsber.product.LineChart</node>
+    <node x="319.0" y="104.0">site.licsber.product.PieChart</node>
+    <node x="264.0" y="312.0">site.licsber.client.SimpleFactoryClient</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="site.licsber.client.SimpleFactoryClient" target="site.licsber.factory.SimpleChartFactory">
+      <point x="-65.66666666666669" y="-27.0" />
+      <point x="296.83333333333337" y="287.0" />
+      <point x="255.50000000000003" y="287.0" />
+      <point x="-53.5" y="27.0" />
+    </edge>
+    <edge source="site.licsber.client.SimpleFactoryClient" target="site.licsber.product.AbstractChart">
+      <point x="65.66666666666669" y="-27.0" />
+      <point x="428.16666666666674" y="287.0" />
+      <point x="473.02314814814815" y="287.0" />
+      <point x="473.02314814814815" y="74.0" />
+      <point x="427.02314814814815" y="74.0" />
+      <point x="60.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.product.LineChart" target="site.licsber.product.AbstractChart">
+      <point x="0.0" y="-27.0" />
+      <point x="238.50000000000003" y="84.0" />
+      <point x="337.02314814814815" y="84.0" />
+      <point x="-30.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.factory.SimpleChartFactory" target="site.licsber.product.PieChart">
+      <point x="26.75" y="-27.0" />
+      <point x="335.75" y="183.0" />
+      <point x="379.5" y="183.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.product.PieChart" target="site.licsber.product.AbstractChart">
+      <point x="0.0" y="-27.0" />
+      <point x="379.5" y="84.0" />
+      <point x="367.02314814814815" y="84.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.factory.SimpleChartFactory" target="site.licsber.product.AbstractChart">
+      <point x="80.25" y="-27.0" />
+      <point x="389.25" y="183.0" />
+      <point x="454.875" y="183.0" />
+      <point x="454.875" y="84.0" />
+      <point x="397.02314814814815" y="84.0" />
+      <point x="30.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.factory.SimpleChartFactory" target="site.licsber.product.LineChart">
+      <point x="-26.75" y="-27.0" />
+      <point x="282.25" y="183.0" />
+      <point x="238.50000000000003" y="183.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.factory.SimpleChartFactory" target="site.licsber.product.HistogramChart">
+      <point x="-80.25" y="-27.0" />
+      <point x="228.75000000000003" y="183.0" />
+      <point x="79.0" y="183.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.product.HistogramChart" target="site.licsber.product.AbstractChart">
+      <point x="0.0" y="-27.0" />
+      <point x="79.0" y="74.0" />
+      <point x="307.02314814814815" y="74.0" />
+      <point x="-60.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="237.0" y="183.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
