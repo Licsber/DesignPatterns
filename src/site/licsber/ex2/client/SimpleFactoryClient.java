@@ -1,7 +1,7 @@
-package site.licsber.client;
+package site.licsber.ex2.client;
 
-import site.licsber.factory.SimpleChartFactory;
-import site.licsber.product.AbstractChart;
+import site.licsber.ex2.factory.SimpleChartFactory;
+import site.licsber.ex2.product.AbstractChart;
 
 public class SimpleFactoryClient {
     public static void main(String[] args) {

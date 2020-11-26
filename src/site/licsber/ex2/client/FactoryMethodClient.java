@@ -1,8 +1,8 @@
-package site.licsber.client;
+package site.licsber.ex2.client;
 
-import site.licsber.factory.AbstractFactory;
-import site.licsber.factory.LineChartFactory;
-import site.licsber.product.AbstractChart;
+import site.licsber.ex2.factory.AbstractFactory;
+import site.licsber.ex2.factory.LineChartFactory;
+import site.licsber.ex2.product.AbstractChart;
 
 public class FactoryMethodClient {
     public static void main(String[] args) {

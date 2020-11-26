@@ -1,7 +1,7 @@
-package site.licsber.factory;
+package site.licsber.ex2.factory;
 
-import site.licsber.product.AbstractChart;
-import site.licsber.product.HistogramChart;
+import site.licsber.ex2.product.AbstractChart;
+import site.licsber.ex2.product.HistogramChart;
 
 public class HistogramChartFactory implements AbstractFactory {
     @Override

@@ -1,4 +1,4 @@
-package site.licsber.product;
+package site.licsber.ex2.product;
 
 public class HistogramChart implements AbstractChart {
     @Override

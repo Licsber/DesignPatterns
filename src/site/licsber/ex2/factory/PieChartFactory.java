@@ -1,7 +1,7 @@
-package site.licsber.factory;
+package site.licsber.ex2.factory;
 
-import site.licsber.product.AbstractChart;
-import site.licsber.product.PieChart;
+import site.licsber.ex2.product.AbstractChart;
+import site.licsber.ex2.product.PieChart;
 
 public class PieChartFactory implements AbstractFactory {
     @Override
