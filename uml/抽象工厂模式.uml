@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>site.licsber.ex3.factory.AbstractSkinFactory</OriginalElement>
+  <nodes>
+    <node x="771.1129120879122" y="392.0">site.licsber.ex3.factory.SummerSkinFactory</node>
+    <node x="401.01043956043964" y="174.0">site.licsber.ex3.factory.AbstractSkinFactory</node>
+    <node x="239.01043956043964" y="196.0">site.licsber.ex3.product.SpringButton</node>
+    <node x="693.7631868131868" y="0.0">site.licsber.ex3.product.Button</node>
+    <node x="841.0104395604396" y="196.0">site.licsber.ex3.product.SummerButton</node>
+    <node x="10.5" y="196.0">site.licsber.ex3.product.SpringInputBox</node>
+    <node x="118.51318681318685" y="0.0">site.licsber.ex3.product.InputBox</node>
+    <node x="663.0104395604396" y="196.0">site.licsber.ex3.product.SummerInputBox</node>
+    <node x="439.01043956043964" y="550.0">site.licsber.ex3.client.Client</node>
+    <node x="145.64862637362648" y="392.0">site.licsber.ex3.factory.SpringSkinFactory</node>
+    <node x="1169.4774725274724" y="0.0">site.licsber.ex3.product.ComboBox</node>
+    <node x="1076.9879120879123" y="196.0">site.licsber.ex3.product.SpringComboBox</node>
+    <node x="1255.9879120879123" y="196.0">site.licsber.ex3.product.SummerComboBox</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="site.licsber.ex3.product.SpringComboBox" target="site.licsber.ex3.product.ComboBox">
+      <point x="0.0" y="-27.0" />
+      <point x="1155.9879120879123" y="154.0" />
+      <point x="1219.4774725274724" y="154.0" />
+      <point x="-10.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.product.SummerButton" target="site.licsber.ex3.product.Button">
+      <point x="0.0" y="-27.0" />
+      <point x="912.0104395604396" y="124.0" />
+      <point x="763.7631868131868" y="124.0" />
+      <point x="10.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.factory.SummerSkinFactory" target="site.licsber.ex3.product.SummerButton">
+      <point x="0.0" y="-49.0" />
+      <point x="892.1129120879122" y="332.0" />
+      <point x="912.0104395604396" y="332.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.factory.AbstractSkinFactory" target="site.licsber.ex3.product.ComboBox">
+      <point x="80.66666666666663" y="-49.0" />
+      <point x="602.6771062271063" y="134.0" />
+      <point x="1179.4774725274724" y="134.0" />
+      <point x="-50.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.factory.SpringSkinFactory" target="site.licsber.ex3.product.ComboBox">
+      <point x="69.14285714285711" y="-49.0" />
+      <point x="335.7914835164836" y="342.0" />
+      <point x="1066.4879120879123" y="342.0" />
+      <point x="1066.4879120879123" y="144.0" />
+      <point x="1199.4774725274724" y="144.0" />
+      <point x="-30.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.factory.SpringSkinFactory" target="site.licsber.ex3.product.Button">
+      <point x="-34.57142857142861" y="-49.0" />
+      <point x="232.07719780219787" y="362.0" />
+      <point x="190.0" y="362.0" />
+      <point x="190.0" y="104.0" />
+      <point x="703.7631868131868" y="104.0" />
+      <point x="-50.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.factory.AbstractSkinFactory" target="site.licsber.ex3.product.Button">
+      <point x="0.0" y="-49.0" />
+      <point x="522.0104395604396" y="124.0" />
+      <point x="743.7631868131868" y="124.0" />
+      <point x="-10.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.product.SummerComboBox" target="site.licsber.ex3.product.ComboBox">
+      <point x="0.0" y="-27.0" />
+      <point x="1334.9879120879123" y="154.0" />
+      <point x="1259.4774725274724" y="154.0" />
+      <point x="30.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.factory.SpringSkinFactory" target="site.licsber.ex3.factory.AbstractSkinFactory">
+      <point x="34.571428571428555" y="-49.0" />
+      <point x="301.22005494505504" y="332.0" />
+      <point x="441.343772893773" y="332.0" />
+      <point x="-80.66666666666663" y="49.0" />
+    </edge>
+    <edge source="site.licsber.ex3.factory.SpringSkinFactory" target="site.licsber.ex3.product.SpringInputBox">
+      <point x="-103.71428571428578" y="-49.0" />
+      <point x="162.9343406593407" y="372.0" />
+      <point x="89.5" y="372.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.client.Client" target="site.licsber.ex3.product.InputBox">
+      <point x="-66.39999999999998" y="-27.0" />
+      <point x="455.61043956043966" y="530.0" />
+      <point x="0.0" y="530.0" />
+      <point x="0.0" y="144.0" />
+      <point x="128.51318681318685" y="144.0" />
+      <point x="-50.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.factory.SummerSkinFactory" target="site.licsber.ex3.product.SummerInputBox">
+      <point x="-34.57142857142867" y="-49.0" />
+      <point x="857.5414835164835" y="292.0" />
+      <point x="742.0104395604396" y="292.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.product.SpringButton" target="site.licsber.ex3.product.Button">
+      <point x="0.0" y="-27.0" />
+      <point x="310.01043956043964" y="114.0" />
+      <point x="723.7631868131868" y="114.0" />
+      <point x="-30.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.product.SummerInputBox" target="site.licsber.ex3.product.InputBox">
+      <point x="0.0" y="-27.0" />
+      <point x="742.0104395604396" y="74.0" />
+      <point x="228.51318681318685" y="74.0" />
+      <point x="50.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.factory.SpringSkinFactory" target="site.licsber.ex3.product.InputBox">
+      <point x="-69.14285714285722" y="-49.0" />
+      <point x="197.50576923076926" y="372.0" />
+      <point x="179.0" y="372.0" />
+      <point x="179.0" y="154.0" />
+      <point x="168.51318681318685" y="154.0" />
+      <point x="-10.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.factory.SummerSkinFactory" target="site.licsber.ex3.product.Button">
+      <point x="34.571428571428555" y="-49.0" />
+      <point x="926.6843406593407" y="332.0" />
+      <point x="1013.0104395604396" y="332.0" />
+      <point x="1013.0104395604396" y="114.0" />
+      <point x="783.7631868131868" y="114.0" />
+      <point x="30.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.factory.SummerSkinFactory" target="site.licsber.ex3.product.ComboBox">
+      <point x="69.14285714285711" y="-49.0" />
+      <point x="961.2557692307693" y="362.0" />
+      <point x="1245.4879120879123" y="362.0" />
+      <point x="1245.4879120879123" y="154.0" />
+      <point x="1239.4774725274724" y="154.0" />
+      <point x="10.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.factory.SummerSkinFactory" target="site.licsber.ex3.product.SummerComboBox">
+      <point x="103.71428571428567" y="-49.0" />
+      <point x="995.8271978021978" y="372.0" />
+      <point x="1334.9879120879123" y="372.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.client.Client" target="site.licsber.ex3.product.Button">
+      <point x="33.200000000000045" y="-27.0" />
+      <point x="555.2104395604397" y="520.0" />
+      <point x="1055.4879120879123" y="520.0" />
+      <point x="1055.4879120879123" y="104.0" />
+      <point x="803.7631868131868" y="104.0" />
+      <point x="50.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.client.Client" target="site.licsber.ex3.product.ComboBox">
+      <point x="66.39999999999998" y="-27.0" />
+      <point x="588.4104395604396" y="530.0" />
+      <point x="1424.4879120879123" y="530.0" />
+      <point x="1424.4879120879123" y="144.0" />
+      <point x="1279.4774725274724" y="144.0" />
+      <point x="50.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.factory.SummerSkinFactory" target="site.licsber.ex3.factory.AbstractSkinFactory">
+      <point x="-69.14285714285722" y="-49.0" />
+      <point x="822.9700549450549" y="302.0" />
+      <point x="602.6771062271064" y="302.0" />
+      <point x="80.66666666666674" y="49.0" />
+    </edge>
+    <edge source="site.licsber.ex3.client.Client" target="site.licsber.ex3.factory.AbstractSkinFactory">
+      <point x="0.0" y="-27.0" />
+      <point x="522.0104395604396" y="510.0" />
+      <point x="478.6486263736264" y="510.0" />
+      <point x="478.6486263736264" y="332.0" />
+      <point x="522.0104395604396" y="332.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="site.licsber.ex3.client.Client" target="site.licsber.ex3.factory.SpringSkinFactory">
+      <point x="-33.200000000000045" y="-27.0" />
+      <point x="488.8104395604396" y="520.0" />
+      <point x="266.6486263736265" y="520.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="site.licsber.ex3.product.SpringInputBox" target="site.licsber.ex3.product.InputBox">
+      <point x="0.0" y="-27.0" />
+      <point x="89.5" y="154.0" />
+      <point x="148.51318681318685" y="154.0" />
+      <point x="-30.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.factory.SpringSkinFactory" target="site.licsber.ex3.product.SpringComboBox">
+      <point x="103.71428571428567" y="-49.0" />
+      <point x="370.36291208791215" y="352.0" />
+      <point x="1155.9879120879123" y="352.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.factory.AbstractSkinFactory" target="site.licsber.ex3.product.InputBox">
+      <point x="-80.66666666666674" y="-49.0" />
+      <point x="441.3437728937729" y="84.0" />
+      <point x="208.51318681318685" y="84.0" />
+      <point x="30.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.factory.SummerSkinFactory" target="site.licsber.ex3.product.InputBox">
+      <point x="-103.71428571428578" y="-49.0" />
+      <point x="788.3986263736264" y="312.0" />
+      <point x="228.51043956043964" y="312.0" />
+      <point x="228.51043956043964" y="94.0" />
+      <point x="188.51318681318685" y="94.0" />
+      <point x="10.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex3.factory.SpringSkinFactory" target="site.licsber.ex3.product.SpringButton">
+      <point x="0.0" y="-49.0" />
+      <point x="266.6486263736265" y="322.0" />
+      <point x="310.01043956043964" y="322.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8435986159169551" x="712.5" y="302.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
