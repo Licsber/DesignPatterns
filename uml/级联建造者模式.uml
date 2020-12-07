@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>site.licsber.ex4.builder.Client</OriginalElement>
+  <nodes>
+    <node x="0.0" y="170.0">site.licsber.ex4.builder.Panel</node>
+    <node x="6.999999999999986" y="0.0">site.licsber.ex4.builder.Director</node>
+    <node x="18.500000000000014" y="340.0">site.licsber.ex4.builder.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="site.licsber.ex4.builder.Panel" target="site.licsber.ex4.builder.Director">
+      <point x="-82.39999999999998" y="-60.0" />
+      <point x="20.600000000000023" y="145.0" />
+      <point x="26.19999999999999" y="145.0" />
+      <point x="-76.8" y="60.0" />
+    </edge>
+    <edge source="site.licsber.ex4.builder.Client" target="site.licsber.ex4.builder.Panel">
+      <point x="-1.4210854715202004E-14" y="-38.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="site.licsber.ex4.builder.Director" target="site.licsber.ex4.builder.Panel">
+      <point x="38.40000000000005" y="60.0" />
+      <point x="141.40000000000003" y="145.0" />
+      <point x="144.2" y="145.0" />
+      <point x="41.19999999999999" y="-60.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="103.0" y="208.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>Open Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
