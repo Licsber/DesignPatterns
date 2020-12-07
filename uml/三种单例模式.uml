@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>site.licsber.ex4.single.Client</OriginalElement>
+  <nodes>
+    <node x="416.0" y="136.0">site.licsber.ex4.single.MoonHungry</node>
+    <node x="225.0" y="136.0">site.licsber.ex4.single.MoonLazy</node>
+    <node x="0.0" y="136.0">site.licsber.ex4.single.MoonStaticInnerClass</node>
+    <node x="230.75" y="0.0">site.licsber.ex4.single.Moon</node>
+    <node x="271.8125" y="240.0">site.licsber.ex4.single.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="site.licsber.ex4.single.Client" target="site.licsber.ex4.single.MoonStaticInnerClass">
+      <point x="-41.5" y="-38.0" />
+      <point x="313.3125" y="215.0" />
+      <point x="102.5" y="215.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex4.single.Client" target="site.licsber.ex4.single.Moon">
+      <point x="41.5" y="-38.0" />
+      <point x="396.3125" y="215.0" />
+      <point x="597.5" y="215.0" />
+      <point x="597.5" y="96.0" />
+      <point x="458.25" y="96.0" />
+      <point x="105.0" y="38.0" />
+    </edge>
+    <edge source="site.licsber.ex4.single.MoonLazy" target="site.licsber.ex4.single.Moon">
+      <point x="-42.75" y="-27.0" />
+      <point x="267.75" y="116.0" />
+      <point x="318.25" y="116.0" />
+      <point x="-35.0" y="38.0" />
+    </edge>
+    <edge source="site.licsber.ex4.single.MoonHungry" target="site.licsber.ex4.single.Moon">
+      <point x="42.75" y="-27.0" />
+      <point x="544.25" y="106.0" />
+      <point x="423.25" y="106.0" />
+      <point x="70.0" y="38.0" />
+    </edge>
+    <edge source="site.licsber.ex4.single.MoonStaticInnerClass" target="site.licsber.ex4.single.Moon">
+      <point x="51.25" y="-27.0" />
+      <point x="153.75" y="106.0" />
+      <point x="283.25" y="106.0" />
+      <point x="-70.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="241.0" y="92.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
