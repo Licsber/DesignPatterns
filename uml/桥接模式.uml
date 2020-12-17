@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>site.licsber.ex5.bridge.os.LinuxOS</OriginalElement>
+  <nodes>
+    <node x="565.0" y="273.0">site.licsber.ex5.bridge.os.UnixOS</node>
+    <node x="423.00000000000006" y="273.0">site.licsber.ex5.bridge.os.WindowsOS</node>
+    <node x="400.50000000000006" y="114.0">site.licsber.ex5.bridge.os.OS</node>
+    <node x="788.5" y="136.5">site.licsber.ex5.bridge.file.JPG</node>
+    <node x="397.50000000000006" y="0.0">site.licsber.ex5.bridge.file.ImageFile</node>
+    <node x="140.00000000000006" y="136.5">site.licsber.ex5.bridge.file.BMP</node>
+    <node x="0.0" y="136.5">site.licsber.ex5.bridge.file.GIF</node>
+    <node x="227.75765306122457" y="377.0">site.licsber.ex5.bridge.Client</node>
+    <node x="648.5" y="136.5">site.licsber.ex5.bridge.file.PNG</node>
+    <node x="281.00000000000006" y="273.0">site.licsber.ex5.bridge.os.LinuxOS</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="site.licsber.ex5.bridge.file.GIF" target="site.licsber.ex5.bridge.file.ImageFile">
+      <point x="0.0" y="-27.0" />
+      <point x="60.0" y="74.0" />
+      <point x="406.0714285714286" y="74.0" />
+      <point x="-51.428571428571445" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex5.bridge.os.WindowsOS" target="site.licsber.ex5.bridge.os.OS">
+      <point x="-30.5" y="-27.0" />
+      <point x="453.50000000000006" y="253.0" />
+      <point x="481.9285714285715" y="253.0" />
+      <point x="-32.571428571428555" y="49.5" />
+    </edge>
+    <edge source="site.licsber.ex5.bridge.os.LinuxOS" target="site.licsber.ex5.bridge.os.OS">
+      <point x="30.5" y="-27.0" />
+      <point x="372.50000000000006" y="243.0" />
+      <point x="449.35714285714295" y="243.0" />
+      <point x="-65.14285714285711" y="49.5" />
+    </edge>
+    <edge source="site.licsber.ex5.bridge.file.JPG" target="site.licsber.ex5.bridge.file.ImageFile">
+      <point x="0.0" y="-27.0" />
+      <point x="848.5" y="74.0" />
+      <point x="508.9285714285715" y="74.0" />
+      <point x="51.428571428571445" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex5.bridge.file.BMP" target="site.licsber.ex5.bridge.file.ImageFile">
+      <point x="0.0" y="-27.0" />
+      <point x="200.00000000000006" y="84.0" />
+      <point x="423.2142857142858" y="84.0" />
+      <point x="-34.28571428571428" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex5.bridge.Client" target="site.licsber.ex5.bridge.file.GIF">
+      <point x="-62.25" y="-27.0" />
+      <point x="248.50765306122457" y="352.0" />
+      <point x="60.0" y="352.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex5.bridge.Client" target="site.licsber.ex5.bridge.file.ImageFile">
+      <point x="-20.75" y="-27.0" />
+      <point x="290.0076530612246" y="352.0" />
+      <point x="270.50000000000006" y="352.0" />
+      <point x="270.50000000000006" y="94.0" />
+      <point x="440.3571428571429" y="94.0" />
+      <point x="-17.142857142857167" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex5.bridge.os.OS" target="site.licsber.ex5.bridge.file.ImageFile">
+      <point x="-57.0" y="-49.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex5.bridge.Client" target="site.licsber.ex5.bridge.os.OS">
+      <point x="62.25" y="-27.0" />
+      <point x="373.0076530612246" y="352.0" />
+      <point x="697.5" y="352.0" />
+      <point x="697.5" y="233.0" />
+      <point x="612.2142857142858" y="233.0" />
+      <point x="97.7142857142858" y="49.5" />
+    </edge>
+    <edge source="site.licsber.ex5.bridge.file.PNG" target="site.licsber.ex5.bridge.file.ImageFile">
+      <point x="0.0" y="-27.0" />
+      <point x="708.5" y="84.0" />
+      <point x="491.78571428571433" y="84.0" />
+      <point x="34.28571428571428" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex5.bridge.os.UnixOS" target="site.licsber.ex5.bridge.os.OS">
+      <point x="-30.5" y="-27.0" />
+      <point x="595.5" y="253.0" />
+      <point x="547.0714285714287" y="253.0" />
+      <point x="32.57142857142867" y="49.5" />
+    </edge>
+    <edge source="site.licsber.ex5.bridge.Client" target="site.licsber.ex5.bridge.os.LinuxOS">
+      <point x="20.75" y="-27.0" />
+      <point x="331.5076530612246" y="352.0" />
+      <point x="342.00000000000006" y="352.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="454.5" y="215.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
