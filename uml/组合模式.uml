@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>site.licsber.ex6.composite.AbstractFile</OriginalElement>
+  <nodes>
+    <node x="0.0" y="257.5">site.licsber.ex6.composite.ImageFile</node>
+    <node x="155.99999999999997" y="257.5">site.licsber.ex6.composite.TextFile</node>
+    <node x="312.0" y="213.0">site.licsber.ex6.composite.Folder</node>
+    <node x="199.16666666666663" y="0.0">site.licsber.ex6.composite.AbstractFile</node>
+    <node x="237.44444444444443" y="406.0">site.licsber.ex6.composite.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="site.licsber.ex6.composite.Client" target="site.licsber.ex6.composite.Folder">
+      <point x="20.5" y="-27.0" />
+      <point x="339.94444444444446" y="376.0" />
+      <point x="415.0" y="376.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="site.licsber.ex6.composite.Client" target="site.licsber.ex6.composite.AbstractFile">
+      <point x="61.5" y="-27.0" />
+      <point x="380.94444444444446" y="386.0" />
+      <point x="528.5" y="386.0" />
+      <point x="528.5" y="163.0" />
+      <point x="392.29166666666663" y="163.0" />
+      <point x="90.125" y="71.5" />
+    </edge>
+    <edge source="site.licsber.ex6.composite.Client" target="site.licsber.ex6.composite.TextFile">
+      <point x="-20.5" y="-27.0" />
+      <point x="298.94444444444446" y="376.0" />
+      <point x="223.99999999999997" y="376.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex6.composite.ImageFile" target="site.licsber.ex6.composite.AbstractFile">
+      <point x="-34.0" y="-27.0" />
+      <point x="34.0" y="163.0" />
+      <point x="212.04166666666663" y="163.0" />
+      <point x="-90.125" y="71.5" />
+    </edge>
+    <edge source="site.licsber.ex6.composite.TextFile" target="site.licsber.ex6.composite.AbstractFile">
+      <point x="34.0" y="-27.0" />
+      <point x="258.0" y="193.0" />
+      <point x="289.29166666666663" y="193.0" />
+      <point x="-12.875" y="71.5" />
+    </edge>
+    <edge source="site.licsber.ex6.composite.Folder" target="site.licsber.ex6.composite.AbstractFile">
+      <point x="-68.66666666666669" y="-71.5" />
+      <point x="346.33333333333326" y="193.0" />
+      <point x="315.04166666666663" y="193.0" />
+      <point x="12.875" y="71.5" />
+    </edge>
+    <edge source="site.licsber.ex6.composite.Client" target="site.licsber.ex6.composite.ImageFile">
+      <point x="-61.5" y="-27.0" />
+      <point x="257.94444444444446" y="386.0" />
+      <point x="68.0" y="386.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="184.0" y="92.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
