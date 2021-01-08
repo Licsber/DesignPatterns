@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>site.licsber.ex6.decorator.BlackBorderDecorator</OriginalElement>
+  <nodes>
+    <node x="10.5" y="135.5">site.licsber.ex6.decorator.TextBox</node>
+    <node x="410.0" y="355.0">site.licsber.ex6.decorator.Client</node>
+    <node x="303.3958333333333" y="251.0">site.licsber.ex6.decorator.ScrollDecorator</node>
+    <node x="161.49999999999997" y="124.0">site.licsber.ex6.decorator.VisualComponentDecorator</node>
+    <node x="437.3819444444444" y="135.5">site.licsber.ex6.decorator.Window</node>
+    <node x="246.06249999999994" y="0.0">site.licsber.ex6.decorator.VisualComponent</node>
+    <node x="49.84027777777777" y="251.0">site.licsber.ex6.decorator.BlackBorderDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="site.licsber.ex6.decorator.BlackBorderDecorator" target="site.licsber.ex6.decorator.VisualComponent">
+      <point x="-69.33333333333331" y="-27.0" />
+      <point x="84.50694444444446" y="226.0" />
+      <point x="0.0" y="226.0" />
+      <point x="0.0" y="74.0" />
+      <point x="256.56249999999994" y="74.0" />
+      <point x="-73.5" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex6.decorator.VisualComponentDecorator" target="site.licsber.ex6.decorator.VisualComponent">
+      <point x="80.0" y="-38.5" />
+      <point x="361.5" y="104.0" />
+      <point x="340.56249999999994" y="104.0" />
+      <point x="10.5" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex6.decorator.Client" target="site.licsber.ex6.decorator.Window">
+      <point x="0.0" y="-27.0" />
+      <point x="491.0" y="330.0" />
+      <point x="502.8819444444444" y="330.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex6.decorator.BlackBorderDecorator" target="site.licsber.ex6.decorator.VisualComponentDecorator">
+      <point x="0.0" y="-27.0" />
+      <point x="153.84027777777777" y="226.0" />
+      <point x="191.49999999999997" y="226.0" />
+      <point x="-90.0" y="38.5" />
+    </edge>
+    <edge source="site.licsber.ex6.decorator.Window" target="site.licsber.ex6.decorator.VisualComponent">
+      <point x="0.0" y="-27.0" />
+      <point x="502.8819444444444" y="84.0" />
+      <point x="382.56249999999994" y="84.0" />
+      <point x="52.5" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex6.decorator.Client" target="site.licsber.ex6.decorator.VisualComponent">
+      <point x="54.0" y="-27.0" />
+      <point x="545.0" y="330.0" />
+      <point x="578.8819444444443" y="330.0" />
+      <point x="578.8819444444443" y="74.0" />
+      <point x="403.56249999999994" y="74.0" />
+      <point x="73.5" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex6.decorator.ScrollDecorator" target="site.licsber.ex6.decorator.VisualComponent">
+      <point x="56.0" y="-27.0" />
+      <point x="443.3958333333333" y="226.0" />
+      <point x="423.8819444444444" y="226.0" />
+      <point x="423.8819444444444" y="94.0" />
+      <point x="361.56249999999994" y="94.0" />
+      <point x="31.5" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex6.decorator.TextBox" target="site.licsber.ex6.decorator.VisualComponent">
+      <point x="0.0" y="-27.0" />
+      <point x="76.0" y="84.0" />
+      <point x="277.56249999999994" y="84.0" />
+      <point x="-52.5" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex6.decorator.ScrollDecorator" target="site.licsber.ex6.decorator.VisualComponentDecorator">
+      <point x="-56.0" y="-27.0" />
+      <point x="331.3958333333333" y="226.0" />
+      <point x="311.5" y="226.0" />
+      <point x="30.0" y="38.5" />
+    </edge>
+    <edge source="site.licsber.ex6.decorator.Client" target="site.licsber.ex6.decorator.BlackBorderDecorator">
+      <point x="-54.0" y="-27.0" />
+      <point x="437.0" y="330.0" />
+      <point x="153.84027777777777" y="330.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="287.0" y="144.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
