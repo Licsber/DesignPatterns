@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>site.licsber.ex5.adapter.Alarm</OriginalElement>
+  <nodes>
+    <node x="37.238636363636374" y="0.0">site.licsber.ex5.adapter.Target</node>
+    <node x="225.5" y="136.0">site.licsber.ex5.adapter.ObjectAdapter</node>
+    <node x="10.5" y="147.0">site.licsber.ex5.adapter.Car</node>
+    <node x="127.5" y="340.0">site.licsber.ex5.adapter.Client</node>
+    <node x="197.11363636363637" y="11.0">site.licsber.ex5.adapter.Light</node>
+    <node x="377.125" y="11.0">site.licsber.ex5.adapter.Alarm</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="site.licsber.ex5.adapter.Client" target="site.licsber.ex5.adapter.Car">
+      <point x="-51.25" y="-27.0" />
+      <point x="158.25" y="310.0" />
+      <point x="56.25" y="310.0" />
+      <point x="-45.75" y="61.0" />
+    </edge>
+    <edge source="site.licsber.ex5.adapter.Client" target="site.licsber.ex5.adapter.Alarm">
+      <point x="51.25" y="-27.0" />
+      <point x="260.75" y="310.0" />
+      <point x="466.875" y="310.0" />
+      <point x="466.875" y="116.0" />
+      <point x="456.5" y="116.0" />
+      <point x="15.875" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex5.adapter.ObjectAdapter" target="site.licsber.ex5.adapter.Alarm">
+      <point x="45.0" y="-72.0" />
+      <point x="383.0" y="116.0" />
+      <point x="393.0" y="116.0" />
+      <point x="-47.625" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex5.adapter.Client" target="site.licsber.ex5.adapter.ObjectAdapter">
+      <point x="30.75" y="-27.0" />
+      <point x="240.25" y="300.0" />
+      <point x="338.0" y="300.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="site.licsber.ex5.adapter.ObjectAdapter" target="site.licsber.ex5.adapter.Light">
+      <point x="-45.0" y="-72.0" />
+      <point x="293.0" y="116.0" />
+      <point x="270.2386363636364" y="116.0" />
+      <point x="14.625" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex5.adapter.Car" target="site.licsber.ex5.adapter.Target">
+      <point x="-45.75" y="-61.0" />
+      <point x="56.25" y="116.0" />
+      <point x="84.86363636363637" y="116.0" />
+      <point x="-15.875" y="38.0" />
+    </edge>
+    <edge source="site.licsber.ex5.adapter.Client" target="site.licsber.ex5.adapter.Target">
+      <point x="-71.75" y="-27.0" />
+      <point x="137.75" y="320.0" />
+      <point x="0.0" y="320.0" />
+      <point x="0.0" y="106.0" />
+      <point x="53.113636363636374" y="106.0" />
+      <point x="-47.625" y="38.0" />
+    </edge>
+    <edge source="site.licsber.ex5.adapter.ObjectAdapter" target="site.licsber.ex5.adapter.Target">
+      <point x="-90.0" y="-72.0" />
+      <point x="248.0" y="96.0" />
+      <point x="148.36363636363637" y="96.0" />
+      <point x="47.625" y="38.0" />
+    </edge>
+    <edge source="site.licsber.ex5.adapter.Client" target="site.licsber.ex5.adapter.Light">
+      <point x="10.25" y="-27.0" />
+      <point x="219.75" y="320.0" />
+      <point x="215.0" y="320.0" />
+      <point x="215.0" y="116.0" />
+      <point x="240.98863636363637" y="116.0" />
+      <point x="-14.625" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="146.5" y="130.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
