@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>site.licsber.ex8.strategy.AbstractDiscount</OriginalElement>
+  <nodes>
+    <node x="256.9472222222222" y="412.0">site.licsber.ex8.strategy.Client</node>
+    <node x="0.0" y="114.0">site.licsber.ex8.strategy.DefaultDiscount</node>
+    <node x="673.0" y="114.0">site.licsber.ex8.strategy.VIPDiscount</node>
+    <node x="240.99999999999997" y="114.0">site.licsber.ex8.strategy.StudentDiscount</node>
+    <node x="457.0" y="114.0">site.licsber.ex8.strategy.ChildDiscount</node>
+    <node x="58.447222222222194" y="218.0">site.licsber.ex8.strategy.Ticket</node>
+    <node x="183.80138888888882" y="0.0">site.licsber.ex8.strategy.AbstractDiscount</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="site.licsber.ex8.strategy.StudentDiscount" target="site.licsber.ex8.strategy.AbstractDiscount">
+      <point x="0.0" y="-27.0" />
+      <point x="339.0" y="94.0" />
+      <point x="298.1347222222222" y="94.0" />
+      <point x="16.33333333333337" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex8.strategy.VIPDiscount" target="site.licsber.ex8.strategy.AbstractDiscount">
+      <point x="0.0" y="-27.0" />
+      <point x="771.0" y="74.0" />
+      <point x="363.46805555555545" y="74.0" />
+      <point x="81.66666666666663" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex8.strategy.Client" target="site.licsber.ex8.strategy.Ticket">
+      <point x="-65.60000000000002" y="-27.0" />
+      <point x="273.3472222222222" y="392.0" />
+      <point x="125.9472222222222" y="392.0" />
+      <point x="-67.5" y="72.0" />
+    </edge>
+    <edge source="site.licsber.ex8.strategy.Ticket" target="site.licsber.ex8.strategy.DefaultDiscount">
+      <point x="-90.0" y="-72.0" />
+      <point x="103.4472222222222" y="193.0" />
+      <point x="98.0" y="193.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex8.strategy.DefaultDiscount" target="site.licsber.ex8.strategy.AbstractDiscount">
+      <point x="0.0" y="-27.0" />
+      <point x="98.0" y="94.0" />
+      <point x="200.13472222222217" y="94.0" />
+      <point x="-81.66666666666666" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex8.strategy.Ticket" target="site.licsber.ex8.strategy.AbstractDiscount">
+      <point x="90.0" y="-72.0" />
+      <point x="283.4472222222222" y="193.0" />
+      <point x="217.49999999999997" y="193.0" />
+      <point x="217.49999999999997" y="94.0" />
+      <point x="265.4680555555555" y="94.0" />
+      <point x="-16.333333333333314" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex8.strategy.ChildDiscount" target="site.licsber.ex8.strategy.AbstractDiscount">
+      <point x="0.0" y="-27.0" />
+      <point x="555.0" y="84.0" />
+      <point x="330.8013888888888" y="84.0" />
+      <point x="49.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex8.strategy.Client" target="site.licsber.ex8.strategy.VIPDiscount">
+      <point x="65.60000000000002" y="-27.0" />
+      <point x="404.5472222222222" y="392.0" />
+      <point x="771.0" y="392.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex8.strategy.Client" target="site.licsber.ex8.strategy.StudentDiscount">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="site.licsber.ex8.strategy.Client" target="site.licsber.ex8.strategy.ChildDiscount">
+      <point x="32.80000000000001" y="-27.0" />
+      <point x="371.74722222222226" y="382.0" />
+      <point x="555.0" y="382.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="434.5" y="233.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
