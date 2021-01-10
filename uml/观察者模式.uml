@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>site.licsber.ex8.observer.AbstractPlayer</OriginalElement>
+  <nodes>
+    <node x="216.995" y="589.0">site.licsber.ex8.observer.Client</node>
+    <node x="94.66500000000002" y="180.0">site.licsber.ex8.observer.AbstractPlayer</node>
+    <node x="250.0" y="374.0">site.licsber.ex8.observer.Team</node>
+    <node x="184.5" y="0.0">site.licsber.ex8.observer.AbstractTeam</node>
+    <node x="0.0" y="407.0">site.licsber.ex8.observer.Player</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="site.licsber.ex8.observer.AbstractTeam" target="site.licsber.ex8.observer.AbstractPlayer">
+      <point x="17.0" y="60.0" />
+      <point x="303.5" y="160.0" />
+      <point x="329.665" y="160.0" />
+      <point x="94.0" y="-72.0" />
+    </edge>
+    <edge source="site.licsber.ex8.observer.Client" target="site.licsber.ex8.observer.Team">
+      <point x="20.25" y="-27.0" />
+      <point x="318.245" y="559.0" />
+      <point x="363.0" y="559.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="site.licsber.ex8.observer.AbstractPlayer" target="site.licsber.ex8.observer.AbstractTeam">
+      <point x="-94.0" y="-72.0" />
+      <point x="141.66500000000002" y="150.0" />
+      <point x="235.5" y="150.0" />
+      <point x="-51.0" y="60.0" />
+    </edge>
+    <edge source="site.licsber.ex8.observer.Client" target="site.licsber.ex8.observer.Player">
+      <point x="-60.75" y="-27.0" />
+      <point x="237.245" y="569.0" />
+      <point x="114.5" y="569.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="site.licsber.ex8.observer.Client" target="site.licsber.ex8.observer.AbstractPlayer">
+      <point x="-20.25" y="-27.0" />
+      <point x="277.745" y="559.0" />
+      <point x="239.5" y="559.0" />
+      <point x="239.5" y="349.0" />
+      <point x="235.66500000000002" y="349.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="site.licsber.ex8.observer.Team" target="site.licsber.ex8.observer.AbstractPlayer">
+      <point x="-75.33333333333331" y="-82.5" />
+      <point x="287.6666666666667" y="349.0" />
+      <point x="292.06500000000005" y="349.0" />
+      <point x="56.400000000000034" y="72.0" />
+    </edge>
+    <edge source="site.licsber.ex8.observer.Team" target="site.licsber.ex8.observer.AbstractTeam">
+      <point x="75.33333333333331" y="-82.5" />
+      <point x="438.3333333333333" y="349.0" />
+      <point x="435.87166666666667" y="349.0" />
+      <point x="435.87166666666667" y="160.0" />
+      <point x="337.5" y="160.0" />
+      <point x="51.0" y="60.0" />
+    </edge>
+    <edge source="site.licsber.ex8.observer.Player" target="site.licsber.ex8.observer.AbstractPlayer">
+      <point x="76.33333333333331" y="-49.5" />
+      <point x="190.83333333333331" y="349.0" />
+      <point x="179.26500000000004" y="349.0" />
+      <point x="-56.39999999999998" y="72.0" />
+    </edge>
+    <edge source="site.licsber.ex8.observer.Player" target="site.licsber.ex8.observer.AbstractTeam">
+      <point x="-76.33333333333331" y="-49.5" />
+      <point x="38.166666666666686" y="349.0" />
+      <point x="62.913333333333355" y="349.0" />
+      <point x="62.913333333333355" y="140.0" />
+      <point x="201.5" y="140.0" />
+      <point x="-85.0" y="60.0" />
+    </edge>
+    <edge source="site.licsber.ex8.observer.Client" target="site.licsber.ex8.observer.AbstractTeam">
+      <point x="60.75" y="-27.0" />
+      <point x="358.745" y="569.0" />
+      <point x="486.5" y="569.0" />
+      <point x="486.5" y="150.0" />
+      <point x="371.5" y="150.0" />
+      <point x="85.0" y="60.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8597285067873304" x="243.5" y="321.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
